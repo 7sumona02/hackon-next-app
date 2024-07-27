@@ -1,6 +1,7 @@
 import Body from '@/components/Body'
 import FAQ from '@/components/FAQ'
 import Footer from '@/components/Footer'
+import Mentors from '@/components/Mentors'
 import Navbar from '@/components/Navbar'
 import Online from '@/components/Online'
 import Prize from '@/components/Prize'
@@ -12,6 +13,7 @@ const page = () => {
       <Navbar />
       <Body />
       <Prize />
+      <Mentors />
       <FAQ />
       <Footer />
     </div>
