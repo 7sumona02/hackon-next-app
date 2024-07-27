@@ -37,7 +37,7 @@ const Navbar = () => {
     </div>
   </div>
   <div className="navbar-start">
-    <a className={`${pixel.className} font-semibold text-xl md:text-3xl btn btn-ghost hover:bg-transparent`}>HACKon</a>
+    <a className={`${pixel.className} font-semibold text-2xl md:text-3xl btn btn-ghost hover:bg-transparent`}>HACKon</a>
   </div>
 </div>
     </div>
