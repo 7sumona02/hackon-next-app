@@ -11,12 +11,15 @@ const pixel = Pixelify_Sans({
 interface PrizeCardProps {
     title?: string;  
     amount?: string; 
+    bgColor?: string;
+    textColor?: string;
+    cardWidth?: string;
 }
 
-const PrizeCard: React.FC<PrizeCardProps> = ({ title, amount }) => {
+const PrizeCard: React.FC<PrizeCardProps> = ({ title, amount, bgColor, textColor, cardWidth }) => {
   return (
-    <div className='bg-white py-5 px-10 rounded-xl w-[95vw]'>
-      <div className='flex flex-col justify-center items-center text-3xl'>
+    <div className={`${bgColor} py-5 px-10 rounded-xl ${cardWidth}`}>
+      <div className={`${textColor} flex flex-col gap-4 justify-center items-center text-3xl md:text-5xl`}>
         <h1 className={`${pixel.className} text-3xl`}>{title}</h1>
         <p>{amount}</p>
       </div>
