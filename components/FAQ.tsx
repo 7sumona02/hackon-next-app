@@ -10,7 +10,7 @@ const pixel = Pixelify_Sans({
 
 const FAQ = () => {
   return (
-    <div className='mt-14 pb-10'>
+    <div className='mt-14 pb-10' id='faq'>
       <div className='flex flex-col justify-center items-center'>
         <h1 className={`${pixel.className} text-4xl text-center`}>FREQUENTLY <br /> ASKED <br /> QUESTIONS</h1>
 

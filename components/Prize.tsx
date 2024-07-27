@@ -11,7 +11,7 @@ const pixel = Pixelify_Sans({
 
 const Prize = () => {
   return (
-    <div>
+    <div id='partners'>
       <div className='flex flex-col justify-center items-center'>
         <Image src='/Money.svg' alt='bg' width={500} height={500} className='w-[600px]' />
         <div className='-translate-y-8'>

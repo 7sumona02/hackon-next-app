@@ -11,7 +11,7 @@ const pixel = Pixelify_Sans({
 
 const Mentors = () => {
   return (
-    <div className='mt-28 pb-10'>
+    <div className='mt-28 pb-10' id='speakers'>
       <div className='flex flex-col justify-center items-center relative'>
         <Image src='/Atom.svg' alt='img' height={100} width={100} className='absolute -rotate-12 -top-16 left-14' />
         <h1 className={`${pixel.className} text-4xl text-center z-40`}>SPEAKERS <br /> & MENTORS</h1>
