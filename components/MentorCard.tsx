@@ -8,7 +8,7 @@ interface MentorCardProps {
 
 const MentorCard: React.FC<MentorCardProps> = ({speaker, companyImg, className}) => {
   return (
-    <div className={`${className} bg-white w-44 md:w-64 h-64 md:h-[340px] rounded-xl p-3 shadow-sm`}>
+    <div className={`${className} bg-white w-44 md:w-64 h-[270px] md:h-[340px] rounded-xl p-3 shadow-sm`}>
       <div className='h-44 md:h-60 overflow-hidden'>
         <img src='/m1.jpg' alt='' className='w-full h-full object-cover rounded-xl' />
       </div>
