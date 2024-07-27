@@ -16,16 +16,16 @@ const Sponsors = () => {
 
         <div className='grid grid-cols-1 md:grid-cols-2 justify-center w-[95vw] flex-col gap-4 mt-16'>
             <div className='bg-white py-6 md:py-14 rounded-xl flex items-center justify-center'>
-                <img src='sponsors/s1.svg' className='w-44 md:w-60' />
+                <img src='sponsors/s1.svg' alt='' className='w-44 md:w-60' />
             </div>
             <div className='bg-white py-6 md:py-14 rounded-xl flex items-center justify-center'>
-              <img src='sponsors/s2.svg' className='w-44 md:w-60' />
+              <img src='sponsors/s2.svg' alt='' className='w-44 md:w-60' />
             </div>
             <div className='bg-white py-6 md:py-14 rounded-xl flex items-center justify-center'>
-              <img src='sponsors/s3.svg' className='w-44 md:w-60' />
+              <img src='sponsors/s3.svg' alt='' className='w-44 md:w-60' />
             </div>
             <div className='bg-white py-6 md:py-14 rounded-xl flex items-center justify-center'>
-              <img src='sponsors/s4.svg' className='w-44 md:w-60' />
+              <img src='sponsors/s4.svg' alt='' className='w-44 md:w-60' />
             </div>
         </div>
       </div>

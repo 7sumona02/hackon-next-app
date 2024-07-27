@@ -17,7 +17,7 @@ const Online = () => {
             </div>
         </div>
         <div className='bg-zinc-950 rounded-tr-lg rounded-br-lg flex items-center p-4'>
-            <p className='text-white'>24 JUN - 24 JUL '24</p>
+            <p className='text-white'>24 JUN - 24 JUL &apos;24</p>
         </div>
       </div>
     </div>
