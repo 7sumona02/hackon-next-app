@@ -5,6 +5,7 @@ import Mentors from '@/components/Mentors'
 import Navbar from '@/components/Navbar'
 import Online from '@/components/Online'
 import Prize from '@/components/Prize'
+import Sponsors from '@/components/Sponsors'
 import React from 'react'
 
 const page = () => {
@@ -13,6 +14,7 @@ const page = () => {
       <Navbar />
       <Body />
       <Prize />
+      <Sponsors />
       <Mentors />
       <FAQ />
       <Footer />

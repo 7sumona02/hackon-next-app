@@ -11,7 +11,7 @@ const pixel = Pixelify_Sans({
 
 const Navbar = () => {
   return (
-    <div className='relative pb-28'>
+    <div className='relative pb-28 z-50'>
         <div className='bg-[#4ade80] px-3 py-2 w-[40vh] fixed top-4 left-[5.5vw] rounded-lg'>
         <div className='flex justify-between items-center'>
             <div>
