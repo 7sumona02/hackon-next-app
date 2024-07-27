@@ -12,7 +12,7 @@ const pixel = Pixelify_Sans({
 const Navbar = () => {
   return (
     <div className='relative flex justify-center pb-28 z-50'>
-      <div className="navbar bg-[#4ade80] flex-row-reverse w-[40vh] md:w-[96vw] fixed top-4 rounded-lg">
+      <div className="navbar bg-[#4ade80] flex-row-reverse w-[95vw] fixed top-4 rounded-lg">
       <div className="navbar-end hidden md:flex">
           <ul className="menu menu-horizontal px-1">
             <Link href='#partners'><li className='font-bold hover:bg-zinc-200/40 duration-300 rounded-lg transition-all'><a className='text-lg'>PARTNERS</a></li></Link>
