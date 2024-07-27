@@ -17,7 +17,7 @@ const Footer = () => {
   return (
     <div className="px-4 p-10 bg-[url('/FooterBg.svg')] bg-cover bg-center">
         <div className='flex justify-center pb-5 rotate-3'>
-            <Image src='/Robot.svg' alt='img' height={200} width={200} />
+            <Image src='/Robot.svg' alt='img' height={200} width={200} className='saturate-0 hover:saturate-100 duration-300 transition-all' />
         </div>
         <div className='bg-white p-10 rounded-t-xl'>
         <div className='flex flex-col items-start'>
