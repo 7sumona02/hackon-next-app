@@ -10,7 +10,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className='bg-[#E7E6E6]'>
+    <div className='bg-[#E7E6E6] select-none overflow-hidden'>
       <Navbar />
       <Body />
       <Prize />

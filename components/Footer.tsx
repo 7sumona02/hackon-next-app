@@ -43,7 +43,7 @@ const Footer = () => {
             <div className="flex h-5 items-center space-x-4 text-sm mt-5">
                 <div>+91 1234567890</div>
                 <Separator orientation="vertical" className='bg-zinc-800' />
-                <div>contact@hackon.tech</div>
+                <Link href='mailto:contact@hackon.tech'><div>contact@hackon.tech</div></Link>
             </div>
         </div>
         <div className='mt-2'>
